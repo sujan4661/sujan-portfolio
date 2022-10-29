@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Ms+Madi&family=Poppins:ital,wght@0,100;0,200;1,200&family=Zen+Kaku+Gothic+Antique:wght@500;700;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-family: "DynaPuff", cursive;
+  padding-bottom: 25px;
+  color: #59e4ab;
+  font-size: 45px;
+  text-align: center;
+  padding: 70px 0 20px 0;
+}
+
+.sub-title {
+  font-size: 20px;
+  color: rgba(129, 129, 129, 0.9);
+  text-align: center;
+}
+
+.body {
+  padding: 60px 0px 50px 0;
+}
+
+.btn {
+  padding: 8px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgba(129, 129, 129, 0.9);
+  transition: all 0.3s ease-in;
+  font-weight: 600;
+  outline: none;
+  border: 0;
+  border: 1px solid rgba(129, 129, 129, 0.9);
+  border-radius: 4px;
+  background: 0;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 85%;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .sub-title {
+    font-size: 13.9px;
+  }
+  .btn {
+    padding: 7px 8px;
+    font-size: 14px;
+  }
+}
